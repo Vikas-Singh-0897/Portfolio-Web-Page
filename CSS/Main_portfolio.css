@@ -1,0 +1,316 @@
+/* Generall CSS */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #08351b;
+    color: #EDF4F2;
+}
+
+/* Link */
+.link, a{
+    text-decoration: none;
+    color: #EDF4F2;
+}
+/* Icon Links */
+.icon_link{
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: #EDF4F2;
+}
+/* Heading */
+.heading{
+    height: 6vh;
+    width: 100%;
+    background: linear-gradient(#123e43,#08351b);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Header CSS */
+header{
+    height: 9vh;
+    width: 100%;
+}
+.header{
+    height: 9vh;
+    width: 100%;
+    background: linear-gradient(#496d97,#123e43,#08351b);
+    position: fixed;
+    display: flex;
+}
+.fakeheader{
+    height: 9vh;
+    width: 100%;
+}
+.logo, .logo img{
+    height: 7vh;
+    margin: 0 4px 0 4px;
+}
+#heading{
+    display: flex;
+    width: 20vw;
+    min-width:fit-content;
+    justify-content: space-evenly;
+    font-size: larger;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    width: 75vw;
+    min-width:fit-content;
+    align-items: center;
+    justify-content: space-around;
+}
+nav a h3{
+    padding: 14px 0px 12px 0px;
+    border-bottom: 2px solid transparent;
+}
+nav a h3:hover{
+    border-bottom: 2px solid aqua;
+}
+
+/* Main-Display CSS */
+main{
+    height: max-content;
+    width: 100%;
+}
+.display{
+    height: max-content;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: linear-gradient(#08351b,#2E4A54);
+}
+.box1{
+    height: 100%;
+    width: 36vw;
+    padding-left: 4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: xx-large;
+}
+.box2{
+    height: 100%;
+    width: 40vw;
+    padding-left: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+.photo{
+    height: 100%;
+    width: 22vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.photo img{
+    width: 22vw;
+}
+.about_me{
+    height: max-content;
+    width: 100%;
+    display: none;
+    margin: 2vh 0vw 2vh 0vw;
+    padding: 0vh 2vw;
+}
+.about_me .box2{
+    height: max-content;
+    width: 64vw;
+    margin: 2vh 0vw 4vh 0vw;
+    padding: 0vh 2vw;
+}
+.about_me_img{
+    height: 100%;
+    width: 36vw;
+    display: flex;
+    justify-content: center;
+}
+.about_me_img img{
+    width: 70%;
+    display: flex;
+    justify-content: end;
+}
+.box1 button{
+    margin-right: 2vw;
+    padding: 0px 2vw;
+    height: 36px;
+    border-radius: 12px;
+    font-weight: 600;
+    color: #EDF4F2;
+    background: linear-gradient(45deg,#1DA27E,#15292E);
+    border: 2px solid #1DA27E;
+    cursor: pointer;
+}
+.box1 button:focus{
+    background: linear-gradient(45deg,#15292E,#1DA27E);
+    border: 2px solid #00ffbb;
+}
+
+/* Projects Section */
+#projects{
+    height: max-content;
+    width: 100%;
+}
+.note{
+    height: max-content;
+    min-height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Skills Section */
+#skills{
+    height: max-content;
+    margin-top: 12px;
+}
+.skills{
+    height: max-content;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+.skill_container{
+    height: 20vw; min-height: 260px;
+    width: 20vw; min-width: 260px;
+    margin: 3vh 0vh;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.skill_image{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(#08351b,#496d97);
+}
+.skill_image img{
+    height: 100%;
+    width: max-content;
+}
+.view_project{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(#08351b,#496d97);
+}
+
+/* Main - Contact Me Page */
+#contact_me{
+    height: max-content;
+    width: 100%;
+    margin: 2vh 0vw;
+    padding: 0vh 0vh 2vh 0vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(/Image_Folder/Contact_Background.png) ;
+}
+.conatct_list, .contact_list p, .conatct_list ul {
+    width: 60%;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 0vh 2vw;
+}
+#contact_form{
+    height: max-content;
+    width: 52%;
+    padding-top: 2vh;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: radial-gradient(#08351b,#2E4A54);
+    border: 2px solid #072E33;
+}
+.contact_container{
+    height: max-content;
+    width: 100%;
+    padding: 4vh 0vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+.contact_container input, .contact_container textarea{
+    width: 80%;
+    max-width: 560px;
+    padding: 2px 6px;
+    border: 2px solid #08351b;
+    border-radius: 12px;
+    outline: none;
+}
+.contact_container input{
+    height: 7.6vh;
+    max-height: 40px;
+}
+.contact_container textarea{
+    height: 18vh;
+    max-height: 136px;
+}
+.contact_container input:focus, .contact_container textarea:focus{
+    border: 2px solid #00ffbb;
+}
+.contact_container button{
+    margin-right: 2vw;
+    padding: 1vh 3vw;
+    height: 36px;
+    border-radius: 12px;
+    font-weight: 600;
+    color: #EDF4F2;
+    background: linear-gradient(45deg,#1DA27E,#15292E);
+    border: 2px solid #1DA27E;
+    cursor: pointer;
+}
+.contact_container button:focus{
+    background: linear-gradient(45deg,#15292E,#1DA27E);
+    border: 2px solid #00ffbb;
+}
+
+/* Let's Get Social */
+#get_social{
+    height: 15vh;
+    width: 100%;
+}
+.social{
+    height: 9vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* Footer */
+footer{
+    height: max-content;
+    width: 100%;
+    background: linear-gradient(#2E4A54,#08351b);
+}
+#copyright{
+    height: 5vh;
+    width: 100%;
+    background-color: #303030;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
