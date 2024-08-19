@@ -223,7 +223,7 @@ main{
     padding: 0vh 0vh 2vh 0vh;
     display: flex;
     flex-direction: column;
-    background-image: url(/Image_Folder/Contact_Background.png) ;
+    background-image: url(Image_Folder/Contact_Background.png) ;
 }
 .conatct_list, .contact_list p, .conatct_list ul {
     width: 60%;
